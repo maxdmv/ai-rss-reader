@@ -1,0 +1,95 @@
+:root {
+background: #000;
+color: #777;
+font-size: 12px;
+}
+* {
+font: inherit;
+color: inherit;
+text-decoration: none;
+box-sizing: border-box;
+}
+img {
+	width: 80px;
+	height: auto;
+}
+header {
+	display: inline-block;
+	vertical-align: middle;
+}
+input {
+	display: inline-block;
+	vertical-align: middle;
+	border:none;
+	outline: none;
+	background: none;
+	-webkit-appearance: none;
+}
+input::after {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height:1em;
+	
+	border-style: solid;
+	border-color: white;
+	border-width: 2px 2px 0 0;
+	transform: rotate(135deg);
+}
+input:checked ~ .hr {
+	width: 100%;
+	height: 1px;
+	background: #333;
+	margin-block: 1em;
+}
+section {
+
+	border: 1px solid #333;
+	position: relative;
+	padding: 1px;
+ 
+	 
+	border-radius: 30px;
+ margin-block: 1em;
+}
+input:checked::after {
+transform: rotate(-45deg);
+	
+}
+
+
+article {
+ 
+
+
+display: none;
+}
+
+input:checked ~ article {
+margin-top: 1em;
+max-height: 1000vh;
+padding: 2em;
+padding-bottom: 50px;
+border: 1px solid #333;
+position: relative;
+
+width: 30vw;
+display: inline-block;
+margin-left: 2.5vw;
+
+
+ 
+}
+
+
+article header p {
+position: absolute;
+bottom: 0;
+}
+h2 {
+color: #fff;
+}
+
+/* Add your own styles. This file is intentionally empty.
+   The HTML uses no classes; target semantic tags like body, header, main, article, h1, h2, p, figure, img, time, nav, footer.
+*/

@@ -1,0 +1,12 @@
+{
+  "title": "My Reader",
+  "feeds": [
+    "https://meduza.io/rss/all",
+    "https://www.kommersant.ru/RSS/news.xml",
+    "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
+  ],
+  "refreshSeconds": 180,
+  "aiCluster": true,
+  "similarityThreshold": 0.78,
+  "maxGroups": 12
+}
