@@ -8,7 +8,7 @@ This version groups articles **on the fly** using free local AI:
 - Semantic HTML only (no classes); customise `public/styles.css` as you wish.
 
 ## Requirements
-- Node.js 18+
+- Node.js
 
 ## Run
 ```bash
@@ -27,9 +27,14 @@ Edit `feeds.json`:
 {
   "title": "My Reader",
   "feeds": [
-    "https://meduza.io/rss/all",
-    "https://www.kommersant.ru/RSS/news.xml",
-    "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
+    "http://feeds.reuters.com/reuters/topNews",
+    "http://feeds.bbci.co.uk/news/rss.xml",
+    "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+    "http://rss.cnn.com/rss/edition.rss",
+    "https://feeds.npr.org/1001/rss.xml",
+    "https://www.theguardian.com/world/rss",
+    "https://apnews.com/rss"
   ],
   "refreshSeconds": 180,
   "aiCluster": true,
