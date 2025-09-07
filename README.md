@@ -1,5 +1,5 @@
 
-# Minimal RSS/Atom Reader — AI Catalogue (Automatic Grouping)
+# Minimal RSS/Atom Reader — AI Catalogue (Automatic Grouping) ß
 
 This version groups articles **on the fly** using free local AI:
 - Generates embeddings with `@xenova/transformers` (no API keys).
@@ -49,4 +49,4 @@ Edit `feeds.json`:
 ## Notes
 - First run downloads a small embedding model and caches it locally.
 - Group titles are extracted from member titles via simple keyword scoring; adjust in `lib/cluster.js` if needed.
-- HTML remains class-less.
+
