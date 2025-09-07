@@ -1,5 +1,5 @@
 
-# Minimal RSS/Atom Reader — AI Catalogue (Automatic Grouping, No CSS Classes)
+# Minimal RSS/Atom Reader — AI Catalogue (Automatic Grouping)
 
 This version groups articles **on the fly** using free local AI:
 - Generates embeddings with `@xenova/transformers` (no API keys).
